@@ -1,7 +1,7 @@
 # TamperMonkeyUserScripts
 This repo contains various UserScripts for use with <a href="https://tampermonkey.net">TamperMonkey</a>
 
-The UserScripts are in js (Javascript) format and can be directly imported into TamperMonkey from the Utilities tab of the TamperMonkey Dashboard, or if you have TamperMonkey installed and enabled, you can click the links below to automatically load the script in TamperMonkey.
+If you have TamperMonkey installed and enabled, you can click the links below to automatically load the script in TamperMonkey.
 
 <table>
   <tr>
