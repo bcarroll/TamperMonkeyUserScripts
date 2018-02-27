@@ -1,11 +1,11 @@
 # TamperMonkeyUserScripts
 This repo contains various UserScripts for use with <a href="https://tampermonkey.net">TamperMonkey</a>
 
-The UserScripts are in js (Javascript) format and can be directly imported into TamperMonkey from the Utilities tab of the TamperMonkey Dashboard.
+The UserScripts are in js (Javascript) format and can be directly imported into TamperMonkey from the Utilities tab of the TamperMonkey Dashboard, or if you have TamperMonkey installed and enabled, you can click the links below to automatically load the script in TamperMonkey.
 
 <table>
   <tr>
-    <td>GovDeals.com.user.js</td>
+    <td><a href="https://github.com/bcarroll/TamperMonkeyUserScripts/raw/master/GovDeals.com.user.js">GovDeals.com.user.js</a></td>
     <td>
       <ul>
         <li>Automaticatically redirects to search by location</li>
