@@ -15,7 +15,7 @@ The UserScripts are in js (Javascript) format and can be directly imported into 
     </td>
   </tr>
   <tr>
-    <td>Thingiverse - AstroPrint 3D Print API.user.js</td>
+    <td><a href="https://github.com/bcarroll/TamperMonkeyUserScripts/raw/master/Thingiverse%20-%20AstroPrint%203D%20Print%20API.user.js">Thingiverse - AstroPrint 3D Print API.user.js</a></td>
     <td>
       <ul>
         <li>Adds a Print to AstroPrint button to all thing file download links</li>
