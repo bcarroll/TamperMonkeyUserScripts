@@ -16,5 +16,4 @@
     for (var index=0;index < thingfiles.length; index++){
         $(thingfiles[index]).after($('<button style="position:relative;top:5px;left:75px;" class="astroprint-import" data-ap-download-url="' + thingfiles[index].href + '" data-ap-name="' + $(thingfiles[index]).attr("data-file-name") + '">Print with AstroPrint</button>'));
     }
-    /////////////////////////////////////////////////////////////////////////////////////////////////////
 })();
