@@ -22,7 +22,7 @@
         * Redirect to search by location page
         */
         window.location.replace('https://www.govdeals.com/index.cfm?fa=Main.ZipSearch&zipcode=' + zipcode + '&miles=' + radius + '&milesKilo=miles&category=00&kWordSelect=2&locationType=miles&kWord=&country=&btn_submit=Submit');
-    } else if (url.includes('https://www.govdeals.com/index.cfm?fa=Main.Item&itemid=')){
+    } else if (url.includes('https://www.govdeals.com/index.cfm?fa=Main.Item&itemID=')){
         /*
         * Automatically click the first thumbnail image to open the slideshow
         */
