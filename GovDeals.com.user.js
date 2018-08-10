@@ -12,8 +12,8 @@ var $ = window.jQuery;
 (function() {
     'use strict';
 
-    var zipcode = '26101';  // Zipcode to use for location search
-    var radius  = '100';    // Radius (miles) to search from provided zipcode
+    var zipcode = '26101';// Zipcode to use for location search
+    var radius = '100';// Radius (miles) to search from provided zipcode
 
     var url = window.location.href;
 
