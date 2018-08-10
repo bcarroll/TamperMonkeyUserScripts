@@ -6,9 +6,9 @@
 // @author       Brett Carroll
 // @match        https://www.govdeals.com/*
 // @grant        GM_xmlhttpRequest
-// @require      https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+// @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js
 // ==/UserScript==
-
+var $ = window.jQuery;
 (function() {
     'use strict';
 
