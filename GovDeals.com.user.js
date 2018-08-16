@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GovDeals.com
 // @namespace    https://github.com/bcarroll/TamperMonkeyUserScripts
-// @version      0.1
+// @version      0.2
 // @description  GovDeals.com enhancements
 // @author       Brett Carroll
 // @match        https://www.govdeals.com/*
