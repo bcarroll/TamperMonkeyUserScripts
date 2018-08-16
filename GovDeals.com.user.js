@@ -21,12 +21,26 @@ var $ = window.jQuery;
         /*
         * Redirect to search by location page
         */
-        window.location.replace('https://www.govdeals.com/index.cfm?fa=Main.ZipSearch&zipcode=' + zipcode + '&miles=' + radius + '&milesKilo=miles&category=00&kWordSelect=2&locationType=miles&kWord=&country=&btn_submit=Submit');
+        window.location.replace('https://www.govdeals.com/index.cfm?fa=Main.AdvSearchResultsNew&zipcode=' + zipcode + '&miles=' + radius + '&milesKilo=miles&category=00&kWordSelect=2&locationType=miles&kWord=&country=&btn_submit=Submit&searchpg=location');
     } else if (url.includes('https://www.govdeals.com/index.cfm?fa=Main.Item&itemID=')){
         /*
         * Automatically click the first thumbnail image to open the slideshow
-        */
         $('#thumb1').click();
+        */
+        
+        /*
+        * Show fullsize images on Advanced Search results
+        */
+        var images = $('body').find('img');
+        // If there are more than one items the first item image is at index 6
+        var start = 6;
+        // If there are only one items the first item image is at index 5
+        if (images.length == 13){
+            start = 5;
+        }
+        for ( var image=start; image < images.length - 7; image++){
+            $(images)[image].src = $(images)[image].src.replace('/Thumbnails','');
+        }
     } else if (url.indexOf('https://www.govdeals.com/index.cfm?fa=Main.ZipSearch') != -1){
         /*
         * Show fullsize images and the first page of items by location (ZipSearch)
